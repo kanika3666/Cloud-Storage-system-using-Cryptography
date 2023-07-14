@@ -1,0 +1,39 @@
+PREREQUISITES OF THIS PROJECT
+create an accout on firebase
+create a project 
+storage
+replace the firebase jason file and storage Bucket name
+
+TO RUN THIS PROJECT
+create a directory outside this project's directory
+create a virtual environment in this directory
+activate VE
+after activation go to the project directory
+install requirements as in requirements.txt file
+run app.py to run this project
+after executing the python file the host IP address is given on the cmd
+go to this IP address in web browser, the api ui will appear
+you can use this platform to upload and download the file to/from the firebase storage
+at the end deactivate the VE
+
+INSTALL VE
+if you doont have virtual environment in your device
+pip install virtualenv
+
+CREATE VE
+//create a folder and go to this folder then create a VE
+virtualenv venv
+//venv is the virtual env name, you can write any name
+
+ACTIVATE VE 
+venv\Scripts\activate
+
+INSTALL REQUIREMENTS
+pip install -r requirements.txt
+
+DEACTIVATE VE
+venv\Scripts\deactivate
+
+TO INSTALL FROM 'requirements.txt'
+pip install -r requirements.txt
+
